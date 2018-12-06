@@ -2,7 +2,7 @@
 
 This is code for my current protfolio website. This read me is to share the technologies used a long with keeping a report of known issues.
 
-The website can be found hosted on heroku at: [timothyrmickle.com]
+The website can be found hosted on heroku at: http://www.timothyrmickle.com
 
 
 ### Tech
@@ -44,4 +44,4 @@ $ npm start
    [React]: <https://reactjs.org/>
    [p5.js]: <https://p5js.org/>
    [react-p5-wrapper]: <https://www.npmjs.com/package/react-p5-wrapper>
-   [timothyrmickle.com] : <http://www.timothyrmickle.com>
+  
