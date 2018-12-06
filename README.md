@@ -1,44 +1,47 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Portfolio Web Site
 
-## Available Scripts
+This is code for my current protfolio website. This read me is to share the technologies used a long with keeping a report of known issues.
 
-In the project directory, you can run:
+The website can be found hosted on heroku at: timothyrmickle.com
 
-### `npm start`
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Tech
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+This portfolio uses a number of open source projects to work properly:
 
-### `npm test`
+* [React] - HTML enhanced for web apps!
+* [p5.js] - For main background and title animation for wide screens.
+* [react-p5-wrapper] - This Component lets you integrate p5 Sketches into your React App with ease.
+* [video-react] -  The web video player built from the ground up for an HTML5 world using React library.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installation
 
-### `npm run build`
+Install the dependencies and devDependencies and start the server.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```sh
+$ cd porfolio
+$ npm install -d
+$ npm start
+```
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Todos
 
-### `npm run eject`
+    Known Issues: 
+        - Mozilla experience very sluggish. Optimation needed.
+        - IE (11.407) - CCS Grid non-functional
+                      - Title Animation absent  
+        - Edge (Microsoft Edge 42.17134.1.0) - Issue with title animation placing itself over background animation.
+        - Footer icons spaced incorrectly {Flexbox}
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+   
+   [video-react]: <https://video-react.js.org/>
+   [React]: <https://reactjs.org/>
+   [p5.js]: <https://p5js.org/>
+   [react-p5-wrapper]: <https://www.npmjs.com/package/react-p5-wrapper>
+   [timothyrmickle.com] : <http://www.timothyrmickle.com>
