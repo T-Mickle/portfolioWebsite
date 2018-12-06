@@ -6,8 +6,14 @@ import eyes from '../Assets/Videos/sketches/eyes.mov'
 import pastelBlades from '../Assets/Videos/sketches/pastelBlades.mov'
 import petals from '../Assets/Videos/sketches/petals.mov'
 import thomas from '../Assets/Videos/sketches/thomas.mov'
+import lissajous from '../Assets/Videos/sketches/lissajous.mp4'
 
 const projects = [
+    {
+        title: '',
+        video: {lissajous},
+        body: ''
+    },
     {
         title: '',
         video: {redTile},

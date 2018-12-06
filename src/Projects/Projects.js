@@ -21,7 +21,7 @@ function Projects({match}) {
 
             <ul className={'projectLinks primaryText '} >
                 <li className={'projectLinks__items '}>
-                    <Link to={`${match.url}/ga`}>Genreal Assembly Projects</Link>
+                    <Link to={`${match.url}/ga`}>General Assembly Projects</Link>
                 </li>
                 <li className={'projectLinks__items '}>
                     <Link to={`${match.url}/sketches`}>P5.js Sketches</Link>
