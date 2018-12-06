@@ -2,7 +2,7 @@
 
 This is code for my current protfolio website. This read me is to share the technologies used a long with keeping a report of known issues.
 
-The website can be found hosted on heroku at: timothyrmickle.com
+The website can be found hosted on heroku at: [timothyrmickle.com]
 
 
 ### Tech
