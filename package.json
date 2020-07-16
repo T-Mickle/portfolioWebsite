@@ -6,7 +6,7 @@
     "gatsby": "^2.24.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-p5-wrapper": "0.0.4",
+    "react-p5-wrapper": "^2.0.0",
     "react-pdf": "^3.0.6",
     "react-router-dom": "^4.3.1",
     "react-scripts": "3.4.1",
@@ -29,7 +29,8 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "file-loader": "^2.0.0",
+    "file-loader": "^6.0.0",
+    "p5": "^1.0.0",
     "ttf-loader": "^1.0.2"
   }
 }
