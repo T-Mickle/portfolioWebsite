@@ -8,7 +8,7 @@
     "react-dom": "^16.13.1",
     "react-p5-wrapper": "^2.0.0",
     "react-pdf": "^3.0.6",
-    "react-router-dom": "^4.3.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "redux": "^4.0.5",
     "video-react": "^0.13.9"
