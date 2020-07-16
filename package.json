@@ -3,14 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
+    "gatsby": "^2.24.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "react-p5-wrapper": "0.0.4",
-    "react-pdf": "^3.0.5",
+    "react-pdf": "^3.0.6",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "2.1.1",
-    "redux": "^4.0.1",
-    "video-react": "^0.13.1"
+    "react-scripts": "3.4.1",
+    "redux": "^4.0.5",
+    "video-react": "^0.13.9"
   },
   "scripts": {
     "start": "react-scripts start",
