@@ -1,5 +1,5 @@
 
-import ClickOutside from '../clickOutside/ClickOutside'
+import ClickOutside from '../components/clickOutside/ClickOutside'
 import Nav from '../Nav/Nav'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 

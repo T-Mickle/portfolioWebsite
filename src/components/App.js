@@ -8,9 +8,9 @@ import "../node_modules/video-react/dist/video-react.css";
 import Greet from './Greeting/Greet.js'
 import Nav from './Nav/Nav.js'
 import Projects from './Projects/Projects';
-import Footer from './Footer/Footer'
+import Footer from './components/Footer/Footer'
 import About from './About/About'
-import ContactInfo from './ContactInfo/ContactInfo'
+import ContactInfo from './components/ContactInfo/ContactInfo'
 import Resume from './Resume/Resume'
 
 import BgSketch from './Sketches/background'
