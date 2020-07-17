@@ -1,13 +1,14 @@
 
 
 import React from 'react';
-
-import { Document, Page } from 'react-pdf/dist/entry.noworker';
-
-
-
-
 import pdf from '../Assets/PDF/Timothy_Mickle_Resume.pdf'
+import { pdfjs , Document, Page } from 'react-pdf';
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+
+
+
+
+
 
 
 const Resume = () => {
